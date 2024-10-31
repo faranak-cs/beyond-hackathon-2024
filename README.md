@@ -55,41 +55,15 @@ python -m pip install pygame-ce
 ## Flow of Artefact
 ![Tamoyokai Ver1 Artifact](https://github.com/user-attachments/assets/26578add-1934-4fcd-abf4-64da0d3363d0)
 
-
 ## Features in Artefact
-
-
+- Hunger
+- Happiness
 
 ## Tech Stack
 - Programming Language: `Python`
 - Library: `pygame`
 - IDE: `IntelliJ`
 
-## User Stories
-1. **Add here**
-> Pain Points
-
-Add here
-> Scenario
-
-Add here
-
-2. **Add here**
-> Pain Points
-
-Add here
-> Scenario
-
-Add here
-## Scope
-Add here
-
-## Stakeholders
-
-## Business Outcomes
-
 ## Architecture Diagram
-
-## Use Case Diagram
 
 
