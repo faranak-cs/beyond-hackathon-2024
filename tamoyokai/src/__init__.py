@@ -2,7 +2,9 @@ import pygame
 from hunger import Hunger
 
 from src.settings import WINDOW_WIDTH, WINDOW_HEIGHT
-from src.sprites import Drawable
+from src.sprites import all_sprites
+from src.sprites.tomoyokai import Tomoyokai
+
 
 class Game:
     def __init__(self):
@@ -13,10 +15,9 @@ class Game:
         self.running = True
 
         # groups
-        self.all_sprites = pygame.sprite.Group()
         self.hunger = Hunger()
 
-        self.tomoyokai = Drawable(self.all_sprites, (WINDOW_HEIGHT / 2, WINDOW_HEIGHT / 2))
+        self.tomoyokai = Tomoyokai()
 
     def run(self):
         while self.running:
@@ -29,13 +30,13 @@ class Game:
                         self.hunger.feed()
 
             # update
-            self.all_sprites.update(dt)
+            all_sprites.update(dt)
 
             # update the timer
             self.hunger.update()
 
             # draw
-            self.all_sprites.draw(self.display_surface)
+            all_sprites.draw(self.display_surface)
             pygame.display.update()
 
         pygame.quit()
