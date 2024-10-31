@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1391d86-ab7c-45fd-a31e-569019908950" name="Changes" comment="Create pyenv module.">
-      <change afterPath="$PROJECT_DIR$/tamoyokai/src/__init__.py" afterDir="false" />
+    <list default="true" id="f1391d86-ab7c-45fd-a31e-569019908950" name="Changes" comment="Skeleton app.">
+      <change afterPath="$PROJECT_DIR$/tamoyokai/src/sprites/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.__init__.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "false",
@@ -214,7 +215,7 @@
       <workItem from="1730368308642" duration="9000" />
       <workItem from="1730368971588" duration="163000" />
       <workItem from="1730369159675" duration="129000" />
-      <workItem from="1730370663085" duration="737000" />
+      <workItem from="1730370663085" duration="1744000" />
     </task>
     <task id="LOCAL-00001" summary="Create pyenv module.">
       <option name="closed" value="true" />
@@ -224,7 +225,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730370904061</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Skeleton app.">
+      <option name="closed" value="true" />
+      <created>1730371438667</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730371438667</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Skeleton app.">
+      <option name="closed" value="true" />
+      <created>1730371442815</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730371442815</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +249,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create pyenv module." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create pyenv module." />
+    <MESSAGE value="Skeleton app." />
+    <option name="LAST_COMMIT_MESSAGE" value="Skeleton app." />
   </component>
 </project>
