@@ -1,4 +1,5 @@
 import pygame
+from hunger import Hunger
 
 
 WINDOW_WIDTH = 1200
@@ -14,6 +15,7 @@ class Game:
 
         # groups
         self.all_sprites = pygame.sprite.Group()
+        self.hunger = Hunger()
 
     def run(self):
         while self.running:
@@ -21,6 +23,9 @@ class Game:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     self.running = False
+                if event.type == pygame.KEYDOWN:
+                    if event.key == pygame.K_f:
+                        self.hunger.feed()
 
             # update
             self.all_sprites.update(dt)
@@ -28,6 +33,7 @@ class Game:
             # draw
             self.all_sprites.draw(self.display_surface)
             pygame.display.update()
+            self.hunger.update()
 
         pygame.quit()
 
