@@ -17,6 +17,7 @@ class Game:
 
     def run(self):
         while self.running:
+
             dt = self.clock.tick() / 1000
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
@@ -26,6 +27,8 @@ class Game:
                         self.tomoyokai.hunger.feed()
                     if event.key == pygame.K_h:
                         self.tomoyokai.happy.care()
+
+            self.display_surface.fill(color='Black')
 
             # update
             all_sprites.update(dt)
