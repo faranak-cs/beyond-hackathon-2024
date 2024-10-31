@@ -28,7 +28,7 @@ He has many emotions, quite the emotional wreck actually,
 His family left him after he became a zombie and life has never been the same since,
 He attempted to get a job, most places were closed down after the outbreak but his local pizza place Nominoes was still open,
 He was nervous going in, on his cv he never mentioned his zombieness and
-BOB guessed the owner did'nt like it, *cough cough* based off of the multiple machine guns firing at him from a distance...
+BOB guessed the owner did'nt like it, *cough cough* based off of the multiple machine guns firing in his general direction...
 never the less he is now homeless and  needs support!!
 Do you understand his pain??! well thankfully you have signed up for our Zombie Adoption Home program and now
 a 32 year-old zombie is living in your pocket
