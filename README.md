@@ -26,6 +26,9 @@ It is Halloween night in Beyond, we brought the tricks, treats and the mon-- WE 
 
 ## Tech Stack
 
+virtualenv venv
+. venv/bin/activate
+pip install pygame
 
 ## User Stories
 1. **Add here**
