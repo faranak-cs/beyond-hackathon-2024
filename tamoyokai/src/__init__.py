@@ -1,5 +1,6 @@
 import pygame
 
+from src.sprites import Drawable
 
 WINDOW_WIDTH = 1200
 WINDOW_HEIGHT = 800
@@ -14,6 +15,8 @@ class Game:
 
         # groups
         self.all_sprites = pygame.sprite.Group()
+
+        self.tomoyokai = Drawable(self.all_sprites)
 
     def run(self):
         while self.running:
