@@ -10,7 +10,7 @@ class Drawable(pygame.sprite.Sprite):
 
     def __init__(self, pos, group):
         super().__init__(group)
-        file_path = join("..", "resources", "animations", "Idle", "Idle1.png")
+        file_path = join("..", "resources", "animations", "Idle", "1.png")
         print(file_path)
         self.image = pygame.image.load(file_path)
         self.rect = self.image.get_frect(topleft=pos)
