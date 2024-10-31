@@ -1,5 +1,5 @@
 import pygame
-
+from os.path import join
 from src.utils.settings import WINDOW_WIDTH, WINDOW_HEIGHT
 from src.sprites import all_sprites
 from src.tomoyokai import Tomoyokai
@@ -31,6 +31,9 @@ class Game:
             all_sprites.update(dt)
 
             # draw
+            bg_image = pygame.image.load(join("..", "resources","backgrounds","bg.png"))
+            bg_image1 = pygame.transform.scale(bg_image, (WINDOW_WIDTH, WINDOW_HEIGHT))
+            self.display_surface.blit(bg_image1, (0, 0))
             all_sprites.draw(self.display_surface)
             pygame.display.update()
 
