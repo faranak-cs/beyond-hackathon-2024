@@ -5,7 +5,7 @@ BELLY_SIZE = 4
 
 class Hunger(Timer):
 
-    belly = 0
+    belly = 4
 
     def __init__(self):
         super().__init__(duration=5000, repeat=True, autostart=True, func=self.update_belly)

@@ -31,10 +31,12 @@ class Game:
             # update
             self.all_sprites.update(dt)
 
+            # update the timer
+            self.hunger.update()
+
             # draw
             self.all_sprites.draw(self.display_surface)
             pygame.display.update()
-            self.hunger.update()
 
         pygame.quit()
 
