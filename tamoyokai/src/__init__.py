@@ -1,9 +1,7 @@
 import pygame
 
+from src.settings import WINDOW_WIDTH, WINDOW_HEIGHT
 from src.sprites import Drawable
-
-WINDOW_WIDTH = 1200
-WINDOW_HEIGHT = 800
 
 class Game:
     def __init__(self):
