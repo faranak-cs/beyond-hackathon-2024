@@ -64,6 +64,5 @@ python -m pip install pygame-ce
 - Library: `pygame`
 - IDE: `IntelliJ`
 
-## Architecture Diagram
-
-
+## Architecture Overview
+![architecture_overview](https://github.com/user-attachments/assets/58834774-a261-46a5-8e7b-68628d396db2)
