@@ -28,9 +28,6 @@ class Game:
             # update
             all_sprites.update(dt)
 
-            # update the timer
-            self.hunger.update()
-
             # draw
             all_sprites.draw(self.display_surface)
             pygame.display.update()
