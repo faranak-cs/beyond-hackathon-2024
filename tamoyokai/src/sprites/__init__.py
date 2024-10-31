@@ -14,13 +14,13 @@ class AnimatedSprite(Drawable):
 
     def __init__(self, frames, pos):
         super().__init__(frames[0], pos, all_sprites)
-        self.status = 'Idle'
+        self.state = 'Idle'
         self.animations = frames
         self.frame_index = 0
 
     def animate(self,dt):
         self.frame_index += 4 * dt
-        if self.frame_index >= len(self.animations[self.status]):
+        if self.frame_index >= len(self.animations[self.state]):
             self.frame_index = 0
 
-        self.image = self.animations[self.status][int(self.frame_index)]
+        self.image = self.animations[self.state][int(self.frame_index)]
