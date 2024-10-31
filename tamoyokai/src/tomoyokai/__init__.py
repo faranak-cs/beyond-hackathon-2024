@@ -5,6 +5,7 @@ import pygame
 
 from src import WINDOW_WIDTH, WINDOW_HEIGHT, all_sprites
 from src.tomoyokai.hunger import Hunger
+from src.tomoyokai.happy import Happy
 
 class Tomoyokai(pygame.sprite.Sprite):
 
