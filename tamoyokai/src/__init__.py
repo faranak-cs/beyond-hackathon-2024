@@ -16,6 +16,8 @@ class Game:
         # groups
         self.all_sprites = pygame.sprite.Group()
 
+        self.tomoyokai = Drawable(self.all_sprites, (WINDOW_HEIGHT / 2, WINDOW_HEIGHT / 2))
+
     def run(self):
         while self.running:
             dt = self.clock.tick() / 1000
