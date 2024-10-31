@@ -45,18 +45,24 @@ Feed or play with Zombie.
 ## Challenge
 It is Halloween night in Beyond, we brought the tricks, treats and the mon-- WE FORGOT THE MONSTERS!?! Create an app that will give you a pet to interact with. Feed it, talk to it, send it to battle, give your monster different tasks it can do.
 
+## Setup
+```
+python3 -m venv venv
+source venv/bin/activate
+python -m pip install pygame-ce
+```
+
 ## Flow of Artefact
 
 
 ## Features in Artefact
 
 
+
 ## Tech Stack
-```
-virtualenv venv
-. venv/bin/activate
-pip install pygame-ce
-```
+- Programming Language: `Python`
+- Library: `pygame`
+- IDE: `IntelliJ`
 
 ## User Stories
 1. **Add here**
