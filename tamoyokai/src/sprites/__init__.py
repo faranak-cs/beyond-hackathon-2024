@@ -2,8 +2,7 @@ from os.path import join
 
 import pygame.sprite
 
-from src import WINDOW_WIDTH
-from src.settings import WINDOW_HEIGHT
+from src.utils.settings import WINDOW_HEIGHT, WINDOW_WIDTH
 
 all_sprites = pygame.sprite.Group()
 

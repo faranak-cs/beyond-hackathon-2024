@@ -1,9 +1,8 @@
 import pygame
-from hunger import Hunger
 
-from src.settings import WINDOW_WIDTH, WINDOW_HEIGHT
+from src.utils.settings import WINDOW_WIDTH, WINDOW_HEIGHT
 from src.sprites import all_sprites
-from src.sprites.tomoyokai import Tomoyokai
+from src.tomoyokai import Tomoyokai
 
 
 class Game:
@@ -13,9 +12,6 @@ class Game:
         pygame.display.set_caption('Tomoyokai')
         self.clock = pygame.time.Clock()
         self.running = True
-
-        # groups
-        self.hunger = Hunger()
 
         self.tomoyokai = Tomoyokai()
 
@@ -27,7 +23,7 @@ class Game:
                     self.running = False
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_f:
-                        self.hunger.feed()
+                        self.tomoyokai.hunger.feed()
 
             # update
             all_sprites.update(dt)

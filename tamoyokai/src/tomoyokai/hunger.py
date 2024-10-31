@@ -1,4 +1,4 @@
-from timer import Timer
+from src.utils.timer import Timer
 
 BELLY_SIZE = 4
 
