@@ -1,9 +1,8 @@
 import pygame
 from hunger import Hunger
 
-
-WINDOW_WIDTH = 1200
-WINDOW_HEIGHT = 800
+from src.settings import WINDOW_WIDTH, WINDOW_HEIGHT
+from src.sprites import Drawable
 
 class Game:
     def __init__(self):
@@ -16,6 +15,8 @@ class Game:
         # groups
         self.all_sprites = pygame.sprite.Group()
         self.hunger = Hunger()
+
+        self.tomoyokai = Drawable(self.all_sprites, (WINDOW_HEIGHT / 2, WINDOW_HEIGHT / 2))
 
     def run(self):
         while self.running:

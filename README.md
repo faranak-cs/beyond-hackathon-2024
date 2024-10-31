@@ -28,7 +28,7 @@ It is Halloween night in Beyond, we brought the tricks, treats and the mon-- WE 
 ```
 virtualenv venv
 . venv/bin/activate
-pip install pygame
+pip install pygame-ce
 ```
 
 ## User Stories
