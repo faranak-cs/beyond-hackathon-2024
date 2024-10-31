@@ -1,5 +1,6 @@
 import pygame
 
+from src.sprites.assets import AssetLoader
 from src.utils.settings import WINDOW_WIDTH, WINDOW_HEIGHT
 from src.sprites import all_sprites
 from src.tomoyokai import Tomoyokai
@@ -13,7 +14,9 @@ class Game:
         self.clock = pygame.time.Clock()
         self.running = True
 
-        self.tomoyokai = Tomoyokai()
+        self.asset_loader = AssetLoader()
+
+        self.tomoyokai = Tomoyokai(self.asset_loader)
 
     def run(self):
         while self.running:
