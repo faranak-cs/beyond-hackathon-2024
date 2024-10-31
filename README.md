@@ -1,5 +1,5 @@
 # Tamagotchi
-Add description
+My Little Monster
 
 ## Team
 - Stephen Bourke
@@ -15,8 +15,8 @@ https://github.com/users/faranak-cs/projects/12/views/1
 ## Description
 Add here
 
-## Problem Statement
-Add here
+## Challenge
+It is Halloween night in Beyond, we brought the tricks, treats and the mon-- WE FORGOT THE MONSTERS!?! Create an app that will give you a pet to interact with. Feed it, talk to it, send it to battle, give your monster different tasks it can do.
 
 ## Flow of Artefact
 
