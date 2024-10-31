@@ -24,6 +24,8 @@ class Game:
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_f:
                         self.tomoyokai.hunger.feed()
+                    if event.key == pygame.K_h:
+                        self.tomoyokai.happy.care()
 
             # update
             all_sprites.update(dt)
